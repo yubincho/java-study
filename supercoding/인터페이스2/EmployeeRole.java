@@ -1,0 +1,8 @@
+package supercoding.인터페이스2;
+
+public interface EmployeeRole {
+
+    void workTogether(EmployeeRole employeeRole);
+
+    String getName();
+}
