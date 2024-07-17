@@ -1,4 +1,4 @@
-package assignment4week_정답아님;
+package assignment4week_정답아님.firstDay;
 
 public class DivideByZeroException extends RuntimeException {
 
