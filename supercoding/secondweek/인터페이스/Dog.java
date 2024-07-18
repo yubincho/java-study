@@ -1,4 +1,4 @@
-package supercoding.인터페이스;
+package supercoding.secondweek.인터페이스;
 
 public class Dog extends Animal{
 

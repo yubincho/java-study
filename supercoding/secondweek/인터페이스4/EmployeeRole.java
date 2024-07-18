@@ -1,4 +1,4 @@
-package supercoding.인터페이스4;
+package supercoding.secondweek.인터페이스4;
 
 public interface EmployeeRole {
 

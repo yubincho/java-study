@@ -1,4 +1,4 @@
-package supercoding.상속;
+package supercoding.secondweek.상속;
 
 public class AnimalTest {
 

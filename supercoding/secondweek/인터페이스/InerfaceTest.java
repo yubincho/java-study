@@ -1,6 +1,6 @@
-package supercoding.인터페이스;
+package supercoding.secondweek.인터페이스;
 
-import supercoding.상속.Animal;
+
 
 public class InerfaceTest {
 

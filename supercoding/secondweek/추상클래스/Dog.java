@@ -1,4 +1,4 @@
-package supercoding.추상클래스;
+package supercoding.secondweek.추상클래스;
 
 public class Dog extends Animal {
 

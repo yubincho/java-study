@@ -1,4 +1,4 @@
-package supercoding.인터페이스3;
+package supercoding.secondweek.인터페이스3;
 
 public class Male implements HusbandRole, DaddyRole, EmployeeRole {
 

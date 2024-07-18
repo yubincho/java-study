@@ -1,6 +1,6 @@
-package supercoding.인터페이스;
+package supercoding.secondweek.인터페이스;
 
-public class Robot implements Walkable{
+public class Robot implements Walkable {
 
     private String robotID;
     private String modelName;
