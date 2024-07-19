@@ -16,7 +16,7 @@ public class LocalTest {
 
         int i = 100;
         // 익명 클래스
-        supercoding.인터페이스.Walkable anonymousWalk = new supercoding.인터페이스.Walkable() {
+        Walkable anonymousWalk = new Walkable() {
 
             @Override
             public void walk() {
