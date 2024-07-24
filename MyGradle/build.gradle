@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'application' // application 플러그인 추가
 }
 
 group = 'org.example'
@@ -15,8 +16,20 @@ dependencies {
     implementation 'org.mapstruct:mapstruct:1.5.3.Final'
     annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.3.Final'
 
+    // JDBC
+    implementation 'mysql:mysql-connector-java:8.0.32'
+
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+application {
+    mainClassName = 'org.example.jdbc.JdbcTest' // 메인 클래스 지정
+    applicationDefaultJvmArgs = ['-Dfile.encoding=UTF-8']
 }
 
 test {

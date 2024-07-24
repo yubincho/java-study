@@ -30,7 +30,7 @@ public class Person {
         this.email = email;
     }
 
-    public void setPhoneNumber(String phone) {
+    public void setPhone(String phone) {
         this.phone = phone;
     }
 
@@ -85,7 +85,7 @@ public class Person {
                 ", year=" + year +
                 ", address='" + address + '\'' +
                 ", email='" + email + '\'' +
-                ", phoneNumber='" + phone + '\'' +
+                ", phone='" + phone + '\'' +
                 ", gender='" + gender + '\'' +
                 ", nationality='" + nationality + '\'' +
                 ", education='" + education + '\'' +

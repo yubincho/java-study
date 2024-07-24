@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JdbcTest.iml" filepath="$PROJECT_DIR$/JdbcTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JdbcTest.main.iml" filepath="$PROJECT_DIR$/.idea/modules/JdbcTest.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JdbcTest.test.iml" filepath="$PROJECT_DIR$/.idea/modules/JdbcTest.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyGradle.iml" filepath="$PROJECT_DIR$/.idea/modules/MyGradle.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyGradle.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MyGradle.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyGradle.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MyGradle.test.iml" />

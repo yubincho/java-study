@@ -4,7 +4,7 @@ import javax.annotation.processing.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2024-07-22T18:15:35+0900",
+    date = "2024-07-24T18:04:45+0900",
     comments = "version: 1.5.3.Final, compiler: IncrementalProcessingEnvironment from gradle-language-java-8.5.jar, environment: Java 17.0.11 (Oracle Corporation)"
 )
 public class PersonMapStructImpl implements PersonMapStruct {
@@ -21,6 +21,7 @@ public class PersonMapStructImpl implements PersonMapStruct {
         person.setYear( personDto.getAge() );
         person.setAddress( personDto.getAddress() );
         person.setEmail( personDto.getEmail() );
+        person.setPhone( personDto.getPhone() );
         person.setGender( personDto.getGender() );
         person.setNationality( personDto.getNationality() );
         person.setEducation( personDto.getEducation() );
